@@ -1,0 +1,15 @@
+import java.io.*;
+
+class Problem1
+{
+	public static void main (String[] args)
+  {
+		System.out.println(SumDivisibleBy(3)+SumDivisibleBy(5)-SumDivisibleBy(15));
+	}
+	public static int SumDivisibleBy(int n)
+  {
+	    int limit=9;
+	    int p=limit/n;
+	    return n*(p+1)*p/2;
+	}
+}
