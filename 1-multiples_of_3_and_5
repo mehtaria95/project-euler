@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Problem1
+public class Problem1
 {
 	public static void main (String[] args)
   {
@@ -8,7 +8,7 @@ class Problem1
 	}
 	public static int SumDivisibleBy(int n)
   {
-	    int limit=9;
+	    int limit=999;
 	    int p=limit/n;
 	    return n*(p+1)*p/2;
 	}
